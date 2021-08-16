@@ -659,9 +659,13 @@ input[type=text],[type=email] {
 		100%  { background-color: #ccc; }
 	  }
 
-	  .c_box{
-		  width: 100%;
-		  background-color: #eee;
+	  .c_box{ /*Change here for about section image*/
+		width: 100%;
+		background:linear-gradient(rgba(255, 255, 255, 0.9),rgba(255, 255, 255, 0.9)),url(../img/number1.gif);
+		background-attachment: fixed;
+		background-size: cover;
+		padding-top: 120px;
+		padding-bottom: 80px;
 	  }
 	  /* .t-box:before {
 		content: '';
