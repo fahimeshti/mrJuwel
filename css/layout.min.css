@@ -503,10 +503,10 @@ input[type=text],[type=email] {
 	  }
 	  
 	  @media screen and (max-width: 767px) {
-		.content {
+		/* .content {
 		  padding-top: 300px;
-		  /* flex-direction: column; */
-		}
+		  flex-direction: column;
+		} */
 	  }
 	  .card {
 		width: 100%;
